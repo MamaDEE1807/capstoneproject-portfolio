@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Bebas Neue",sans-serif;
   color: rgb(255, 255, 255);
   scroll-behavior: smooth;
 }
@@ -55,9 +55,9 @@ a {
   padding-top: 80px; /* to offset fixed navbar */
 }
 .hero-text h1 {
-  font-size: 2.75rem;
+  font-size: 6.3125rem;
   line-height: 1.2;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue",sans-serif;
   font-weight: 400;
 }
 .highlight {
@@ -72,7 +72,7 @@ a {
   font-size: 18px;
   color: #666;
   max-width: 500px;
-  font-family: 'manrope';
+  font-family: "Manrope", sans-serif;
 }
 .social-icons{
   gap:0px;
@@ -129,7 +129,7 @@ margin-top: 20px;
   text-align: left;
   font-weight: 400;
   font-size: 76px;
-  font-family: 'bebas neue';
+  font-family:"Bebas Neue",sans-serif;
 }
 .project-item {
   margin-bottom: 2rem;
@@ -183,7 +183,7 @@ margin-top: 20px;
 .project-intro{
 font-size: 18px;
 font-weight: 400;
-font-family: 'manrope';
+font-family:"Manrope",sans-serif;
 }
 
 /* --- ABOUT SECTION --- */
@@ -203,13 +203,13 @@ font-family: 'manrope';
 .about-text h1 {
   margin-bottom: 1.5rem;
   font-size: 101px;
-  font-family: 'Bebas Neue';
+  font-family:"Bebas Neue",sans-serif;
   font-weight: 400;
 }
 .about-text p{
   margin-bottom: 1.5rem;
   font-size: 18px;
-  font-family: 'Manrope';
+  font-family:"Manrope",sans-serif;
   font-weight: 400;
   padding-top: 30px;
 }
@@ -217,7 +217,7 @@ font-family: 'manrope';
   color: rgb(255, 255, 255);
   line-height: 1.6;
   font-size: 32px;
-  font-family: 'manrope';
+  font-family: "Manrope",sans-serif;
   font-weight: 500;
   padding: 5px, 20px, 15px, 2px;
 }
@@ -302,6 +302,7 @@ footer {
     font-size: 1.25rem;
   }
 }
+
 
 
 
