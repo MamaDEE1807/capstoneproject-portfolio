@@ -1,0 +1,301 @@
+/* --- GLOBAL STYLES --- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+.background-img{
+  max-width: 100%;
+  max-height: 100%;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  background-color: #ffffff;
+  padding: 1rem 0;
+  transition: background-color 0.3s;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.nav-link {
+  margin: 0 0.75rem;
+  font-weight: 500;
+  color: #555;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: rgb(253, 13, 161);
+}
+.btn-cta {
+  background-color: rgb(253, 13, 161);
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+.btn-cta:hover {
+  background-color: rgb(253, 13, 161);
+}
+
+/* --- HERO / INTRO SECTION --- */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px; /* to offset fixed navbar */
+}
+.hero-text h1 {
+  font-size: 2.75rem;
+  line-height: 1.2;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+}
+.highlight {
+  color: rgb(253, 13, 161);
+}
+.subheading {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.intro {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: #666;
+  max-width: 500px;
+  font-family: 'manrope';
+}
+.social-icons{
+  gap:0px;
+}
+.social-icons a {
+  margin-right: 10px;
+  top: 15px;
+  font-size: 1.25rem;
+  color: rgb(253, 13, 161);
+  transition: color 0.3s;
+  gap: 0px;
+
+}
+.social-icons a:hover {
+  color:rgb(13, 110, 253);
+}
+.btn-view-contact {
+  margin-top: 1.0rem;
+  margin-right: 0px;
+  background: rgb(253, 13, 161);
+  padding: 20px, 6px, 20px, 24px;
+  border-radius: 100px;
+}
+.social-links{
+margin-top: 20px;
+}
+.contact-link a {
+  font-style: bold;
+  align-items: right;
+  font-size: 16px;
+  font-family: 'Manrope';
+  line-height: 100%;
+  width: hug (187px);
+}
+
+/* Hero image */
+.hero-image img {
+  max-width: 500px;
+  max-height: 700px;
+  top: 126px;
+  left: 732px;
+  border-radius: 5%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* --- PROJECTS SECTION --- */
+#projects {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#projects h2 {
+  margin-bottom: 2.5rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-weight: 400;
+  font-size: 76px;
+  font-family: 'bebas neue';
+}
+.project-item {
+  margin-bottom: 2rem;
+}
+.project-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+}
+.project-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.project-info {
+  padding: 1.5rem;
+}
+.project-info h5 {
+  margin-bottom: 0.75rem;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.project-info p {
+  color:rgb(85,85,85);
+  line-height: 1.5;
+  font-weight: 400;
+}
+.project-info a{
+  color: rgb(253, 13, 161);
+}
+.project-one-info p{
+  padding-bottom: 0px; 
+  border-bottom: 3px;
+  border-bottom-style:solid;
+  color: rgb(255, 255, 255);
+}
+.project-info .btn {
+  border-radius: 0.5rem;
+}
+.project-year{
+  text-align:right;
+}
+.btn-outline-primary{
+  background-color: rgb(253, 13, 161);
+  color: rgb(255,255,255);
+}
+.project-intro{
+font-size: 18px;
+font-weight: 400;
+font-family: 'manrope';
+}
+
+/* --- ABOUT SECTION --- */
+#about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.about-image img {
+  border-radius: 1rem;
+}
+.image-fluid{
+  height: 50px;
+  border-radius: 50%;
+}
+.about-text h1 {
+  margin-bottom: 1.5rem;
+  font-size: 101px;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+}
+.about-text p{
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  font-family: 'Manrope';
+  font-weight: 400;
+}
+.about-text h3 {
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  font-size: 32px;
+  font-family: 'manrope';
+  font-weight: 500;
+}
+
+/* --- SKILLS SECTION --- */
+#skills {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#skills h2 {
+  margin-bottom: 2rem;
+}
+.skill-card {
+  margin-bottom: 2rem;
+}
+.skill-card .skill-content {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  color:rgb(0, 0, 0)
+}
+.skill-card .skill-content:hover {
+  transform: translateY(-5px);
+}
+.skill-content h4 {
+  margin-bottom: 1rem;
+  color: rgb(253, 13, 161);
+}
+
+/* --- CONTACT SECTION --- */
+#contact {
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#contact h2 {
+  margin-bottom: 1rem;
+}
+#contact p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+.contact-form .form-control {
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.btn-submit {
+  padding: 0.75rem 2rem;
+  border-radius: 0.75rem;
+  background-color: rgb(253, 13, 161);
+}
+
+/* --- FOOTER --- */
+#contact{
+  padding-left: 75px;
+}
+footer {
+  padding: 3rem 0;
+  color: rgb(255, 255, 255);
+  padding-top: 300px;
+}
+.contact-socials a {
+  margin: 0 0.75rem;
+  font-size: 1.25rem;
+  color: rgb(253, 13, 161);
+  transition: color 0.3s;
+}
+.contact-socials a:hover {
+  color: rgb(13, 110, 253);
+}
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+/* Example tweaks */
+@media (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 2.25rem;
+  }
+  .subheading {
+    font-size: 1.25rem;
+  }
+}
