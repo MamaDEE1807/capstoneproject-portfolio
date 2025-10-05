@@ -211,6 +211,7 @@ font-family: 'manrope';
   font-size: 18px;
   font-family: 'Manrope';
   font-weight: 400;
+  padding-top: 30px;
 }
 .about-text h3 {
   color: rgb(255, 255, 255);
@@ -218,6 +219,7 @@ font-family: 'manrope';
   font-size: 32px;
   font-family: 'manrope';
   font-weight: 500;
+  padding: 5px, 20px, 15px, 2px;
 }
 
 /* --- SKILLS SECTION --- */
@@ -300,6 +302,7 @@ footer {
     font-size: 1.25rem;
   }
 }
+
 
 
 
